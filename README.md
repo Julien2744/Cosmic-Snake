@@ -13,7 +13,7 @@ The Boss head animations where made using [Animated Java](https://animated-java.
 
 (Note: I'm terrible at animation)
 
-The Animated Java files are not included in the repository due to how many there are (3000+ files), and because the files are 99% models and animations.
+The Animated Java files are not included in the repository due to how many there are (1000+ files), and because the files are 99% models and animations.
 
 In 2020 I had an idea for a boss that since kept being stuck in my head, so why not use my Minecraft datapack experience to make it.
 
@@ -25,7 +25,7 @@ There is also an unique per-player config that toggle a post-effect shader using
 
 ### **<ins>How to start:</ins>**
 
-You can follow the news advancements added in `The End category` to see every feature added.
+You can follow the news advancements added in `The End` category to see every feature added.
 
 #### **<ins>Summoning the Boss:</ins>**
 
@@ -34,7 +34,7 @@ To summon the boss, in any end biome, around a block on top of bedrock:
 - place 4 EndCrystal in a 4 blocks max radius
 - then place a beacon on top of the bedrock
 
-exemple :
+Exemple :
 
 ![summoning](https://github.com/Julien2744/Cosmic-Snake/blob/main/github_asset/summoning.jpg)
 
@@ -88,6 +88,8 @@ The weapon can also be upgraded using `Ray Cannon Upgrade`, wich can be crafted 
 
 ## Other Informations
 
+The boss will not attack/target mob with `cosmicsnake.immune` tag
+
 A lot of thing can be modified in the datapack by modifying the files / using another datapck :
 
 Most of them can be found inside: `data/cosmicsnake/tags/`
@@ -97,4 +99,4 @@ But you can also modify:
 - Default value of confing: `data/cosmicsnake/context_float_provider|context_int_provider/config_default_value/`
 - Boss loot in `data/cosmicsnake/loot_table/entity/cosmic_snake`
 
-If you ever have a broken Cosmic Snake you can force kill all of the custom entity with this command: `function cosmicsnake:_admin/force_kill_all`
+If you ever have a broken Cosmic Snake you can force kill all of the custom entity with this command: `/function cosmicsnake:_admin/force_kill_all`
