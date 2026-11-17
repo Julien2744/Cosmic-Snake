@@ -36,14 +36,14 @@ To summon the boss, in any end biome, around a block on top of bedrock:
 
 exemple :
 
-![summoning](https://github.com/Julien2744/cosmicsnake/blob/main/github_asset/summoning.jpg)
+![summoning](https://github.com/Julien2744/Cosmic-Snake/blob/main/github_asset/summoning.jpg)
 
 > [!NOTE]
 > The boss can be summoned anywere in the End, you don't need to summon it at the End Podium
 
 #### **<ins>The Boss abilities:</ins>**
 
-![cosmic snake](https://github.com/Julien2744/cosmicsnake/blob/main/github_asset/boss.jpg)
+![cosmic snake](https://github.com/Julien2744/Cosmic-Snake/blob/main/github_asset/boss.jpg)
 
 The Cosmic Snake is kind of destructive, so be carefull if you have any precious build nearby (unless mob_grief gamerule is disabled)
 
@@ -78,7 +78,7 @@ The Cosmic Snake is kind of destructive, so be carefull if you have any precious
 
 After defeating the boss you can collect a `Cosmic Snake Scale` (if mob_drops gamerules is enabled)
 
-![loot](https://github.com/Julien2744/cosmicsnake/blob/main/github_asset/loot.jpg)
+![loot](https://github.com/Julien2744/Cosmic-Snake/blob/main/github_asset/loot.jpg)
 
 Using this item and a Brewing Stand you can brew a `Cosmic Bottle`. Wich can be used for a new weapon: `Ray Cannon` (check recipe book for the crafting).
 
