@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:any_of",
+  "terms": [
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:entity_type": "minecraft:player",
+        "minecraft:slots": {
+          "hotbar.*": {
+            "items": "minecraft:popped_chorus_fruit",
+            "predicates": {
+              "minecraft:custom_data": {
+                "cosmicsnake.item": {
+                  "id": "ray_cannon",
+                  "ray-cannon": {
+                    "tubes": "full"
+                  }
+                }
+              },
+              "minecraft:damage": {
+                "durability": {
+                  "min": 0,
+                  "max": 99
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:entity_type": "minecraft:player",
+        "minecraft:slots": {
+          "weapon.offhand": {
+            "items": "minecraft:popped_chorus_fruit",
+            "predicates": {
+              "minecraft:custom_data": {
+                "cosmicsnake.item": {
+                  "id": "ray_cannon",
+                  "ray-cannon": {
+                    "tubes": "full"
+                  }
+                }
+              },
+              "minecraft:damage": {
+                "durability": {
+                  "min": 0,
+                  "max": 99
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

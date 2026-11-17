@@ -1,0 +1,1 @@
+function cosmicsnake:boss/head/sound/ambiant

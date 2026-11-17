@@ -1,0 +1,1 @@
+tellraw @s [" ",{"bold":true,"click_event":{"action":"run_command","command":"function cosmicsnake:config/menu"},"color":"#FFF6E3","text":"←"}]

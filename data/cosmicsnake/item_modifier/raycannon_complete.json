@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "item_name": "Ray Cannon",
+        "minecraft:consumable": {
+          "consume_seconds": 99999,
+          "animation": "spyglass",
+          "sound": {
+            "sound_id": "minecraft:block.dripstone_block.step",
+            "range": 0
+          },
+          "has_consume_particles": false
+        }
+      }
+    },
+    {
+      "type": "minecraft:set_damage",
+      "damage": 0,
+      "add": false
+    },
+    {
+      "type": "minecraft:set_custom_data",
+      "tag": {
+        "cosmicsnake.item": {
+          "ray-cannon": {
+            "tubes": "full"
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:set_lore",
+      "lore": [
+        [
+          {
+            "text": "[",
+            "color": "white",
+            "italic": false
+          },
+          {
+            "keybind": "key.use",
+            "color": "white",
+            "italic": false
+          },
+          {
+            "text": "] To fire",
+            "color": "white",
+            "italic": false
+          }
+        ],
+        "",
+        {
+          "text": "Only work in mainhand",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "mode": "replace_all"
+    }
+  ]
+}

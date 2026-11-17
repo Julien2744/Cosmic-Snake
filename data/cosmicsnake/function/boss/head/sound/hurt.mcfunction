@@ -1,0 +1,1 @@
+playsound minecraft:block.gilded_blackstone.break hostile @a[distance=..16] ~ ~ ~ 1 0.5

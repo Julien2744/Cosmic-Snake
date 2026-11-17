@@ -1,0 +1,42 @@
+{
+  "parent": "cosmicsnake:calling_an_end",
+  "criteria": {
+    "defeat_cosmic_snake": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:popped_chorus_fruit",
+            "components": {
+              "minecraft:custom_data": {
+                "cosmicsnake.item":{
+                  "id":"cosmic_snake_scale"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": "Defeat a Cosmic Snake",
+    "icon": {
+      "id": "minecraft:netherite_sword",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": "Cosmic Slayer",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "rewards": {
+    "recipes": [
+      "cosmicsnake:cosmic_bottle"
+    ]
+  },
+  "sends_telemetry_event": false
+}

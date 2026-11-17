@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "cosmicsnake.use_raycannon": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:popped_chorus_fruit",
+          "components": {
+            "minecraft:damage": 0
+          },
+          "predicates": {
+            "minecraft:custom_data": {
+              "cosmicsnake.item": {
+                "id": "ray_cannon"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [],
+    "function": "cosmicsnake:raycannon/use"
+  },
+  "sends_telemetry_event": false
+}

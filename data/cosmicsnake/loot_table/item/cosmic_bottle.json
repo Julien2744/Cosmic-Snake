@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:popped_chorus_fruit",
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                 "minecraft:custom_data": {
+                  "cosmicsnake.item": {
+                    "id":"cosmic_bottle"
+                  }
+                },
+                "minecraft:item_model": "cosmicsnake:cosmic_bottle",
+                "minecraft:item_name": "Cosmic Bottle",
+                "minecraft:rarity": "epic",
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

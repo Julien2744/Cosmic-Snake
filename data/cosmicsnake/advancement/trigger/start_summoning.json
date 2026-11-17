@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "cosmicsnake.start_summoning": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:match_block",
+              "blocks": "minecraft:beacon"
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetY": -1,
+              "predicate": {
+                "biomes": "#cosmicsnake:can_call_boss",
+                "block": {
+                  "blocks": "minecraft:bedrock"
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cosmicsnake:boss_summoner/anim/place_beacon"
+  },
+  "sends_telemetry_event": false
+}

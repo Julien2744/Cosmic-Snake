@@ -1,0 +1,1 @@
+$damage @n[type=!#cosmicsnake:non_living,tag=!cosmicsnake.immune,distance=..1] $(dmg) cosmicsnake:cosmicsnake_bite by @s

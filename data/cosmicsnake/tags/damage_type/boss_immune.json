@@ -1,0 +1,11 @@
+{
+    "values": [
+        "#minecraft:is_lightning",
+        "#minecraft:is_drowning",
+        "minecraft:explosion",
+        "minecraft:player_explosion",
+        "minecraft:bad_respawn_point",
+        "minecraft:in_wall",
+        "minecraft:cramming"
+    ]
+}

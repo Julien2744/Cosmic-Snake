@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:entity_type": "minecraft:player",
+    "minecraft:slots": {
+      "weapon.offhand": {
+        "items": "minecraft:popped_chorus_fruit",
+        "predicates": {
+          "minecraft:custom_data": {
+            "cosmicsnake.item": {
+              "id": "cosmic_bottle"
+            }
+          }
+        }
+      }
+    }
+  }
+}

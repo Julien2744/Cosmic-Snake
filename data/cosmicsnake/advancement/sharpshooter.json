@@ -1,0 +1,26 @@
+{
+  "parent": "cosmicsnake:cannon_power",
+  "criteria": {
+    "cannon_power": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": "Use a Ricochet Ray-Cannon upgrade",
+    "icon": {
+      "id": "minecraft:popped_chorus_fruit",
+      "components": {
+        "minecraft:item_model": "cosmicsnake:ricochet_raycannon_upgrade"
+      }
+    },
+    "title": "Sharpshooter",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "recipes": []
+  },
+  "sends_telemetry_event": false
+}

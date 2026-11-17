@@ -1,0 +1,3 @@
+$execute if entity @s[tag=!cosmicsnake.raycannon.enchant.ricochet] positioned ^ ^ ^24 run kill @e[type=minecraft:item_display,tag=cosmicsnake.raycannon.beam,nbt={data:{owner:$(owner)}},distance=..24,limit=128,sort=nearest]
+$execute if entity @s[tag=cosmicsnake.raycannon.enchant.ricochet] run kill @e[type=minecraft:item_display,tag=cosmicsnake.raycannon.beam,nbt={data:{owner:$(owner)}},distance=..52,limit=128,sort=nearest]
+kill @s

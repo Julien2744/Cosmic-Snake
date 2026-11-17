@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:popped_chorus_fruit",
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "cosmicsnake.item": {
+                    "id": "concentrated_raycannon_upgrade"
+                  }
+                },
+                "minecraft:item_model": "cosmicsnake:concentrated_raycannon_upgrade",
+                "minecraft:item_name": "Concentrated Raycannon Upgrade",
+                "minecraft:rarity": "common",
+                "minecraft:max_stack_size": 1,
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "[",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "keybind": "key.use",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "] In the Off-Hand with a Ray Cannon in the Main-Hand to upgrade it",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

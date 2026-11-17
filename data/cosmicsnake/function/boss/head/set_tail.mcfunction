@@ -1,0 +1,1 @@
+$tag @n[type=minecraft:ghast,tag=cosmicsnake.segment_hitbox,nbt={data:{segment_ID:$(segment_count),snake_ID:$(snake_ID)}},distance=..8] add cosmicsnake.tail

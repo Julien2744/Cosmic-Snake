@@ -1,0 +1,6 @@
+{
+  "message_id": "cosmicsnake.cosmicsnake_bite",
+  "exhaustion": 0.3,
+  "scaling": "never",
+  "effects":"hurt"
+}

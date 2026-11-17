@@ -1,0 +1,42 @@
+{
+  "parent": "cosmicsnake:cosmic_slayer",
+  "criteria": {
+    "stars_brewer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:popped_chorus_fruit",
+            "components": {
+              "minecraft:custom_data": {
+                "cosmicsnake.item":{
+                  "id":"cosmic_bottle"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": "Brew a Cosmic Bottle using a Cosmic Snake Scale and a Water Botlle",
+    "icon": {
+      "id": "minecraft:popped_chorus_fruit",
+      "components": {
+        "minecraft:item_model": "cosmicsnake:cosmic_bottle"
+      }
+    },
+    "title": "Stars Brewer",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "recipes": [
+      "cosmicsnake:ray_cannon"
+    ]
+  },
+  "sends_telemetry_event": false
+}

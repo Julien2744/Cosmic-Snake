@@ -1,0 +1,6 @@
+{
+  "message_id": "cosmicsnake.pointblank_shot",
+  "exhaustion": 0.3,
+  "scaling": "never",
+  "effects":"hurt"
+}

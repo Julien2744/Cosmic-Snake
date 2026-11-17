@@ -1,0 +1,20 @@
+{
+  "anvil_cost": 8,
+  "exclusive_set":"cosmicsnake:concentrated",
+  "description": "Ricochet",
+  "effects": {},
+  "max_cost": {
+    "base": 9999999,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 20,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "minecraft:popped_chorus_fruit",
+  "weight": 1
+}

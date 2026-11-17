@@ -1,0 +1,1 @@
+$execute positioned $(portal_x) $(portal_y) $(portal_z) run function cosmicsnake:boss/head/attack/pointblank_shot/summon_beam

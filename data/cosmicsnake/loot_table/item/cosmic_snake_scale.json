@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:popped_chorus_fruit",
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "cosmicsnake.item": {
+                      "id":"cosmic_snake_scale"
+                    }
+                },
+                "minecraft:item_model": "cosmicsnake:cosmic_snake_scale",
+                "minecraft:item_name": "Cosmic Snake Scale",
+                "minecraft:rarity": "epic",
+                "potion_contents": "minecraft:infested",
+                "minecraft:tooltip_display":{"hidden_components": ["minecraft:potion_contents"]},
+                "minecraft:damage_resistant": {
+                  "types": [
+                    "minecraft:in_fire",
+                    "minecraft:on_fire",
+                    "minecraft:explosion",
+                    "minecraft:player_explosion",
+                    "minecraft:lightning_bolt",
+                    "minecraft:bad_respawn_point",
+                    "minecraft:fireball",
+                    "minecraft:falling_anvil",
+                    "minecraft:hot_floor",
+                    "minecraft:lava",
+                    "minecraft:unattributed_fireball",
+                    "minecraft:wither",
+                    "minecraft:wither_skull",
+                    "minecraft:cactus",
+                    "minecraft:campfire"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

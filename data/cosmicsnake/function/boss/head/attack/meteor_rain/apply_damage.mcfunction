@@ -1,0 +1,1 @@
+$damage @n[type=!#cosmicsnake:non_living,tag=!cosmicsnake.immune,distance=..1] $(dmg) cosmicsnake:meteor by @n[type=minecraft:ghast,tag=cosmicsnake.head_hitbox,nbt={data:{snake_ID:$(snake_ID)}},distance=..156]

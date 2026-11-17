@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:inverted",
+  "term": {
+    "type": "minecraft:location_check",
+    "predicate": {
+      "position": {
+        "y": {
+          "min": -64,
+          "max": 318
+        }
+      }
+    }
+  }
+}

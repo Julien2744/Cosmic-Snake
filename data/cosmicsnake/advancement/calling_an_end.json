@@ -1,0 +1,23 @@
+{
+  "parent": "minecraft:end/kill_dragon",
+  "criteria": {
+    "summon_cosmic_snake": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": "In the End, place a Beacon on top of bedrock, AFTER having placed 4 End Crystal in a 5 blocks max radius of it",
+    "icon": {
+      "id": "minecraft:popped_chorus_fruit",
+      "components": {
+        "minecraft:item_model": "cosmicsnake:cosmic_snake_scale"
+      }
+    },
+    "title": "Calling An End",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "sends_telemetry_event": false
+}

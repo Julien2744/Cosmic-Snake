@@ -1,0 +1,2 @@
+$tag @n[type=minecraft:item_display,tag=cosmicsnake.raycannon.beam,tag=cosmicsnake.raycannon.here,nbt={data:{owner:$(owner)}},distance=..3] remove cosmicsnake.raycannon.here
+tag @n[type=minecraft:item_display,tag=cosmicsnake.raycannon.beam,tag=cosmicsnake.new,distance=..2] add cosmicsnake.raycannon.here

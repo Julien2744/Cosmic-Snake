@@ -1,0 +1,1 @@
+$execute unless entity @n[tag=cosmicsnake.target,distance=..$(lenght)] run tag @s add cosmicsnake.cant_move_back

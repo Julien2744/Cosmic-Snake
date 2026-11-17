@@ -1,0 +1,2 @@
+tag @n[type=item_display,tag=cosmicsnake.desintegration_ray,tag=cosmicsnake.no_neighbord,distance=..1] remove cosmicsnake.no_neighbord
+execute positioned ^ ^ ^5.75 run function cosmicsnake:boss/head/attack/desintegration_ray/summon with entity @s data

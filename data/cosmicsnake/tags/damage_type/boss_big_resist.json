@@ -1,0 +1,11 @@
+{
+    "values": [
+        "#minecraft:is_freezing",
+        "#minecraft:is_fire",
+        "#minecraft:mace_smash",
+        "minecraft:spear",
+        "minecraft:thorns",
+        "minecraft:fireworks",
+        "minecraft:freeze"
+    ]
+}

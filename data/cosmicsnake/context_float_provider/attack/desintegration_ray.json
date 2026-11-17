@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:add",
+    "inputs": [
+      {
+        "type": "minecraft:from_int",
+        "input": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "cosmicsnake.damage"
+        }
+      },
+      2.5
+    ]
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "cosmicsnake:stars_brewer",
+  "criteria": {
+    "cannon_power": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": "Charge a Ray-Cannon using 2 Cosmic Bottles",
+    "icon": {
+      "id": "minecraft:popped_chorus_fruit",
+      "components": {
+        "minecraft:item_model": "cosmicsnake:ray_cannon",
+        "custom_data": {
+            "cosmicsnake.item":{
+                "ray-cannon":{
+                    "tubes":"full"
+                }
+            }
+        }
+      }
+    },
+    "title": "The Power of a Cannon in the Palm of my Hand",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "recipes": [
+      "cosmicsnake:concentrated_raycannon_upgrade",
+      "cosmicsnake:ricochet_raycannon_upgrade"
+    ]
+  },
+  "sends_telemetry_event": false
+}

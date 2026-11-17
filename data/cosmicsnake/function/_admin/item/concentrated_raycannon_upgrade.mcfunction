@@ -1,0 +1,1 @@
+loot give @s loot cosmicsnake:item/concentrated_raycannon_upgrade

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:entity_type": "minecraft:player",
+    "minecraft:slots": {
+      "weapon.mainhand": {
+        "items": "minecraft:popped_chorus_fruit",
+        "predicates": {
+          "minecraft:custom_data": {
+            "cosmicsnake.item": {
+              "id": "ray_cannon",
+              "ray-cannon": {
+                "tubes": "half"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

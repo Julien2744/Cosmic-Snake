@@ -1,0 +1,69 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:popped_chorus_fruit",
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "cosmicsnake.item": {
+                    "id": "ray_cannon",
+                    "ray-cannon": {
+                      "tubes": "none"
+                    }
+                  }
+                },
+                "minecraft:item_model": "cosmicsnake:ray_cannon",
+                "minecraft:item_name": "Uncharged Ray Cannon",
+                "minecraft:rarity": "epic",
+                "minecraft:max_stack_size": 1,
+                "minecraft:max_damage": 100,
+                "minecraft:damage": 0,
+                "minecraft:consumable": {
+                  "consume_seconds": 99999,
+                  "animation": "crossbow",
+                  "sound": {
+                    "sound_id": "minecraft:block.dripstone_block.step",
+                    "range": 0
+                  },
+                  "has_consume_particles": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "[",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "keybind": "key.use",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "] With a Cosmic Bottle in Off-Hand to fill the weapon",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  "",
+                  {
+                    "text": "Only work in mainhand",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

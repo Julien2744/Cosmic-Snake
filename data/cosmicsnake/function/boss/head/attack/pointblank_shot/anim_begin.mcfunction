@@ -1,0 +1,2 @@
+function cosmicsnake:boss/head/sound/pointblank_shot
+function aj:cosmicsnake_head/animations/pointblank_shot/play

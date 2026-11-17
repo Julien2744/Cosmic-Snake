@@ -1,0 +1,1 @@
+function cosmicsnake:initialisation/init_scoreboards

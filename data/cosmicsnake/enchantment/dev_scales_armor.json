@@ -1,0 +1,100 @@
+{
+  "anvil_cost": 999,
+  "description": "dev_scales_armor",
+  "effects": {
+    "minecraft:damage_protection": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": 3
+        },
+        "requirements": {
+          "type": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [
+              {
+                "expected": false,
+                "id": "#minecraft:bypasses_invulnerability"
+              },
+              {
+                "expected": false,
+                "id": "#cosmicsnake:boss_big_resist"
+              },
+              {
+                "expected": false,
+                "id": "#cosmicsnake:boss_immune"
+              },
+              {
+                "expected": false,
+                "id": "#cosmicsnake:no_additional_protection"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:set",
+          "value": 25
+        },
+        "requirements": {
+          "type": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [
+              {
+                "expected": false,
+                "id": "#minecraft:bypasses_invulnerability"
+              },
+              {
+                "expected": true,
+                "id": "#cosmicsnake:boss_big_resist"
+              },
+              {
+                "expected": false,
+                "id": "#cosmicsnake:boss_immune"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "minecraft:damage_immunity": [
+      {
+        "requirements": {
+          "type": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [
+              {
+                "id": "#cosmicsnake:boss_immune",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "effect": {}
+      }
+    ],
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:explosion_knockback_resistance",
+        "id": "cosmicsnake:enchantment.blast_protection",
+        "amount": 0.25,
+        "operation": "add_value"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 999,
+    "per_level_above_first": 999
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 999,
+    "per_level_above_first": 999
+  },
+  "slots": [
+    "armor"
+  ],
+  "supported_items": "#minecraft:enchantable/armor",
+  "weight": 2
+}

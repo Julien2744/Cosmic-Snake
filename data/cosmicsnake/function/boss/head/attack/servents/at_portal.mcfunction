@@ -1,0 +1,2 @@
+$execute positioned $(portal_x) $(portal_y) $(portal_z) on passengers if entity @s[type=minecraft:item_display,tag=aj.cosmicsnake_head.root] \
+    run function cosmicsnake:boss/head/attack/servents/summon

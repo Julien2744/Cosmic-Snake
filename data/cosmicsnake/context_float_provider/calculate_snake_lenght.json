@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:mul",
+  "inputs": [
+    2.75,
+    {
+      "type": "minecraft:from_int",
+      "input": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "#cosmicsnake.config"
+        },
+        "score": "cosmicsnake.config.segment_count"
+      }
+    }
+  ]
+}

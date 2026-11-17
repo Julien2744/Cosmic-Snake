@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:brewing",
+  "input": {
+    "item": "minecraft:potion",
+    "potion_contents": {
+      "potions": "minecraft:water"
+    }
+  },
+  "output": {
+    "components": {
+      "minecraft:custom_data": {
+        "cosmicsnake.item": {
+          "id":"cosmic_bottle"
+        }
+      },
+      "minecraft:item_model": "cosmicsnake:cosmic_bottle",
+      "minecraft:item_name": "Cosmic Bottle",
+      "minecraft:rarity": "epic",
+      "minecraft:max_stack_size": 1
+    },
+    "id": "minecraft:popped_chorus_fruit"
+  },
+  "reagent": {
+    "item": "minecraft:popped_chorus_fruit",
+    "potion_contents": {
+      "potions": "minecraft:infested"
+    }
+  }
+}

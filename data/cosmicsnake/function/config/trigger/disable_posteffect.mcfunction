@@ -1,0 +1,3 @@
+scoreboard players set @p[scores={cosmicsnake.config.disable_posteffect=2..},distance=..1] cosmicsnake.config.disable_posteffect 0
+scoreboard players set @p[scores={cosmicsnake.config.disable_posteffect=..-1},distance=..1] cosmicsnake.config.disable_posteffect 0
+tellraw @p[scores={cosmicsnake.config.disable_posteffect=0}] {"text":"Cosmic Snake config : your disable_posteffect has been reseted to 0"}

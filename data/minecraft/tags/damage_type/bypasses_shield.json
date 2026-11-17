@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "cosmicsnake:desintegrated",
+        "cosmicsnake:cosmicsnake_bite",
+        "cosmicsnake:pointblank_shot",
+        "cosmicsnake:meteor"
+    ]
+}

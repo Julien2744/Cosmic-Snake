@@ -1,0 +1,2 @@
+execute as @n[type=minecraft:item_display,tag=aj.cosmicsnake_head.root,tag=cosmicsnake.pointblank_shot,distance=..128] at @s run function cosmicsnake:boss/head/attack/mean_pointblank_shot/end
+function cosmicsnake:boss/head/attack/pointblank_shot/explode with entity @n[type=minecraft:item_display,tag=aj.cosmicsnake_head.root,tag=cosmicsnake.pointblank_shot,distance=..128] data

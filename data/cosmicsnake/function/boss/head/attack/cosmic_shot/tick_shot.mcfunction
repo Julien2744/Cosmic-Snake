@@ -1,0 +1,2 @@
+$execute as @e[type=minecraft:item_display,tag=cosmicsnake.cosmic_shot,nbt={data:{snake_ID:$(snake_ID)}},distance=..84,limit=84] \
+        run function cosmicsnake:boss/head/attack/cosmic_shot/shot_tick

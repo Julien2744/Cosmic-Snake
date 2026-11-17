@@ -1,0 +1,2 @@
+tp @n[type=minecraft:marker,tag=cosmicsnake.pointblank_shot.marker,distance=..128] ~ ~ ~
+data modify entity @s beam_target set from entity @n[type=minecraft:marker,tag=cosmicsnake.pointblank_shot.marker,distance=..1] Pos

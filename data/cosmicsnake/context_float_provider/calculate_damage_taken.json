@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:sub",
+  "left": {
+    "type": "minecraft:from_int",
+    "input": {
+      "type": "minecraft:score",
+      "target": {
+        "type": "minecraft:fixed",
+        "name": "#cosmicsnake.global"
+      },
+      "score": "cosmicsnake.boss_max_health"
+    }
+  },
+  "right": {
+    "type": "minecraft:div",
+    "left": {
+      "type": "minecraft:from_int",
+      "input": {
+        "type": "minecraft:score",
+        "target": "this",
+        "score": "cosmicsnake.health"
+      }
+    },
+    "right": 100.0
+  }
+}
