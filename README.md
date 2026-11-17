@@ -31,43 +31,45 @@ You can follow the news advancements added in `The End category` to see every fe
 
 To summon the boss, in any end biome, around a block on top of bedrock:
 
-    - place 4 EndCrystal in a 4 blocks max radius
-    - then place a beacon on top of the bedrock
+- place 4 EndCrystal in a 4 blocks max radius
+- then place a beacon on top of the bedrock
 
-exemple :[summoning image]
+exemple :
+
+![summoning](https://github.com/Julien2744/cosmicsnake/blob/main/github_asset/summoning.jpg)
 
 > [!NOTE]
 > The boss can be summoned anywere in the End, you don't need to summon it at the End Podium
 
 #### **<ins>The Boss abilities:</ins>**
 
-[cosmicsnake image]
+![cosmic snake](https://github.com/Julien2744/cosmicsnake/blob/main/github_asset/boss.jpg)
 
 The Cosmic Snake is kind of destructive, so be carefull if you have any precious build nearby (unless mob_grief gamerule is disabled)
 
-    - 1000 Health
-    - The head have more resistance than the body
-    - Damaging a segment will transfer the damage to the head and ignore the head resistance
-    - Damaging a segment will increase an energy meter depending on the damage, and how fast the boss is being attacked
-    - Immune to explosion, lightning, and fire
-    - 1 ultimate attack, that is executed if the energy meter is too high
+- 1000 Health
+- The head have more resistance than the body
+- Damaging a segment will transfer the damage to the head and ignore the head resistance
+- Damaging a segment will increase an energy meter depending on the damage, and how fast the boss is being attacked
+- Immune to explosion, lightning, and fire
+- 1 ultimate attack, that is executed if the energy meter is too high
 
 **<ins>Changes depending on the game difficulty:</ins>**
 
-    - Normal :
-        + Boss segments have contact damage depending on the energy
-        + Boss have passive regen
-        + Damaging a segment will give it resistance I for 1 second
+- Normal :
+    + Boss segments have contact damage depending on the energy
+    + Boss have passive regen
+    + Damaging a segment will give it resistance I for 1 second
 
-    - Hard :
-        + Damaging a segment will give it resistance II for 1 second
+- Hard :
+    + Damaging a segment will give it resistance II for 1 second
 
 <details>
 <summary>Tips and other informations:</summary>
 
-    - The smaller the time the boss is not being attacked, the higher his energy meter will go up
-    - Receive less damage from freezing, Spear, Mace, Firework
-    - The Boss is design to have aoe attacks, keeping distance and attack it using range attacks is highly recomended
+- The smaller the time the boss is not being attacked, the higher his energy meter will go up
+- Receive less damage from freezing, Spear, Mace, Firework
+- The Boss is design to have aoe attacks, keeping distance and attack it using range attacks is highly recomended
 </details>
 
 #### **<ins>Rewards:</ins>**
@@ -76,7 +78,7 @@ The Cosmic Snake is kind of destructive, so be carefull if you have any precious
 
 After defeating the boss you can collect a `Cosmic Snake Scale` (if mob_drops gamerules is enabled)
 
-[boss drop image]
+![loot](https://github.com/Julien2744/cosmicsnake/blob/main/github_asset/loot.jpg)
 
 Using this item and a Brewing Stand you can brew a `Cosmic Bottle`. Wich can be used for a new weapon: `Ray Cannon` (check recipe book for the crafting).
 
@@ -92,7 +94,7 @@ Most of them can be found inside: `data/cosmicsnake/tags/`
 
 But you can also modify:
     
-    - Default value of confing: `data/cosmicsnake/context_float_provider|context_int_provider/config_default_value/`
-    - Boss loot in `data/cosmicsnake/loot_table/entity/cosmic_snake`
+- Default value of confing: `data/cosmicsnake/context_float_provider|context_int_provider/config_default_value/`
+- Boss loot in `data/cosmicsnake/loot_table/entity/cosmic_snake`
 
 If you ever have a broken Cosmic Snake you can force kill all of the custom entity with this command: `function cosmicsnake:_admin/force_kill_all`
