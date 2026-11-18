@@ -9,6 +9,7 @@ summon minecraft:ghast ~ ~-3.2 ~ {\
     NoAI:1b,\
     CanPickUpLoot:0b,\
     Health:1000f,\
+    PortalCooldown:9999999,\
     Invulnerable:1b,\
     data:{\
         segment_ID:0,\
