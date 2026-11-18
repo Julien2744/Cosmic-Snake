@@ -29,10 +29,15 @@ execute if score @s cosmicsnake.moveback_duration matches -60 run scoreboard pla
 #$execute if score @s cosmicsnake.moveback_duration matches 1 run tag @e[type=minecraft:ghast,tag=cosmicsnake.segment_hitbox,tag=cosmicsnake.move.tick_here,nbt={data:{snake_ID:$(snake_ID)}},distance=..256,limit=65] remove cosmicsnake.move.tick_here
 execute if score @s cosmicsnake.moveback_duration matches 1.. run return run function cosmicsnake:boss/head/move_back with entity @s data
 
+# move toward target 
+$execute if entity @n[type=!#cosmicsnake:non_living,tag=cosmicsnake.target,distance=..18] \
+    positioned ~-1.2 ~-0.2 ~-1.2 if entity @e[type=minecraft:ghast,tag=cosmicsnake.segment_hitbox,nbt={data:{segment_ID:1,snake_ID:$(snake_ID)}},dx=1.2,dy=1.2,dz=1.2,limit=1] \
+    at @s facing entity @n[type=!#cosmicsnake:non_living,tag=cosmicsnake.target,distance=..22] feet positioned ^ ^ ^$(speed) \
+        run function cosmicsnake:boss/move_foward with entity @s data
 # move toward target
-$execute positioned ~ ~1 ~ facing entity @n[type=!#cosmicsnake:non_living,tag=cosmicsnake.target,distance=..128] eyes positioned ^ ^ ^$(speed) \
-    positioned ~-1.25 ~-1.25 ~-1.25 if entity @e[type=minecraft:ghast,tag=cosmicsnake.segment_hitbox,nbt={data:{segment_ID:1,snake_ID:$(snake_ID)}},dx=1.25,dy=1.25,dz=1.25,limit=1] \
-    at @s facing entity @n[tag=cosmicsnake.target,distance=..128] feet \
+$execute if entity @n[type=!#cosmicsnake:non_living,tag=cosmicsnake.target,distance=18..128] \
+    positioned ~-1.2 ~-0.2 ~-1.2 if entity @e[type=minecraft:ghast,tag=cosmicsnake.segment_hitbox,nbt={data:{segment_ID:1,snake_ID:$(snake_ID)}},dx=1.2,dy=1.2,dz=1.2,limit=1] \
+    at @s facing entity @n[type=!#cosmicsnake:non_living,tag=cosmicsnake.target,distance=16..128] feet rotated ~ ~-6 positioned ^ ^ ^$(speed) \
         run function cosmicsnake:boss/move_foward with entity @s data
 
 # jump next segment move foward using "cosmicsnake.move.tick_here" tag
