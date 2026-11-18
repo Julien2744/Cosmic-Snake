@@ -20,7 +20,7 @@ summon vex ~ ~ ~ {\
     },\
     drop_chances:{mainhand:0.000,offhand:0.000},\
     attributes:[\
-        {id:"minecraft:armor",base:20},\
+        {id:"minecraft:armor",base:15},\
         {id:"minecraft:armor_toughness",base:8},\
         {id:"minecraft:attack_damage",base:3},\
         {id:"minecraft:scale",base:2},\

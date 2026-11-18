@@ -13,6 +13,7 @@ execute if score @s cosmicsnake.attack_ID matches 0 run return run scoreboard pl
 # ultimate - desintegration ray
 execute if score @s cosmicsnake.attack_ID matches 1 run return run function cosmicsnake:boss/head/attack/desintegration_ray/anim_begin
 # cosmic_shot
+execute if score @s cosmicsnake.attack_ID matches 2 if score @s cosmicsnake.health_pour matches ..30 run scoreboard players set @s cosmicsnake.can_move 1
 execute if score @s cosmicsnake.attack_ID matches 2 run return run function aj:cosmicsnake_head/animations/cosmic_shot_open/play
 
 # bite

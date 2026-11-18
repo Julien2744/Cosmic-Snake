@@ -24,10 +24,10 @@ execute if score #cosmicsnake.global cosmicsnake.gamerule.difficulty matches 3 \
 
 # random chance to change aggro
 execute if predicate cosmicsnake:random/2 \
-    on attacker if entity @s[type=!#cosmicsnake:non_living,tag=!cosmicsnake.immune,distance=..16] \
+    on attacker if entity @s[type=!#cosmicsnake:non_living,type=!minecraft:player,tag=!cosmicsnake.immune,distance=..16] \
         run function cosmicsnake:set_target
 # if no target instant aggro on attacker
-execute unless entity @e[type=!#cosmicsnake:non_living,tag=cosmicsnake.target,distance=..312,limit=1] \
+execute unless entity @e[type=!#cosmicsnake:non_living,type=!minecraft:player,tag=cosmicsnake.target,distance=..312,limit=1] \
     on attacker if entity @s[type=!#cosmicsnake:non_living,tag=!cosmicsnake.immune,distance=..64] \
         run function cosmicsnake:set_target
 

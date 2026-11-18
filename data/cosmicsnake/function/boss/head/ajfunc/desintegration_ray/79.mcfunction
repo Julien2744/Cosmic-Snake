@@ -1,1 +1,0 @@
-scoreboard players set @s cosmicsnake.can_move 0

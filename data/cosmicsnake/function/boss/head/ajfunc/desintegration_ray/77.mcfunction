@@ -1,0 +1,2 @@
+function aj:cosmicsnake_head/at_locator {name:"mouth_middle",command:"execute positioned ~ ~-1 ~ facing entity @n[tag=cosmicsnake.target,distance=..128] feet run rotate @s ~ ~"}
+scoreboard players set @s cosmicsnake.can_move 0
