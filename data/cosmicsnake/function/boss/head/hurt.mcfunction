@@ -18,3 +18,8 @@ execute on passengers if entity @s[tag=aj.cosmicsnake_head.root] \
         run scoreboard players operation @s cosmicsnake.energy += @s cosmicsnake.energy_repetition
 execute on passengers if entity @s[tag=aj.cosmicsnake_head.root] \
     unless entity @s[tag=cosmicsnake.show_energy] run tag @s add cosmicsnake.show_energy
+
+# if no target instant aggro on attacker
+execute unless entity @e[type=!#cosmicsnake:non_living,type=!minecraft:player,tag=cosmicsnake.target,distance=..312,limit=1] \
+    on attacker if entity @s[type=!#cosmicsnake:non_living,tag=!cosmicsnake.immune,distance=..64] \
+        run function cosmicsnake:set_target
