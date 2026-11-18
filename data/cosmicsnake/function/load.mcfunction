@@ -1,6 +1,6 @@
 ## ------ Cosmic Snake Datapack ------ ##
 # Minecraft version: 26.3
-# datapack version: beta-1.0
+# datapack version: beta-1.0.0
 # resourcepack version: v1.0
 # 
 # scoreboard version: 1
