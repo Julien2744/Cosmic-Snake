@@ -5,7 +5,7 @@
 ### Minecraft Datapack that adds an end-game boss
 
 > [!WARNING]
-> This datapack require a resourcepack [link](https://modrinth.com/datapack)
+> This datapack require a resourcepack [link](https://modrinth.com/datapack/cosmic-snake)
 >
 > Current version work for `Minecraft 26.3`
 
