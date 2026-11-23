@@ -1,0 +1,8 @@
+kill @e[type=item_display,tag=cosmicsnake.desintegration_ray,distance=..32,limit=16]
+kill @e[type=item_display,tag=cosmicsnake.cosmic_shot,distance=..32,limit=16]
+kill @e[type=item_display,tag=cosmicsnake.big_cosmic_shot,distance=..32,limit=16]
+kill @e[type=minecraft:item_display,tag=cosmicsnake.ender_mine,distance=..32,limit=16]
+kill @e[type=minecraft:end_crystal,tag=cosmicsnake.pointblank_shot.crystal,distance=..32,limit=16]
+kill @e[type=minecraft:marker,tag=cosmicsnake.pointblank_shot.marker,distance=..32,limit=16]
+kill @e[type=minecraft:block_display,tag=cosmicsnake.meteor.rock,distance=..32,limit=16]
+kill @e[type=minecraft:block_display,tag=cosmicsnake.meteor.fire,distance=..32,limit=16]
