@@ -3,7 +3,7 @@ execute unless entity @n[tag=cosmicsnake.target,distance=..60] run return run fu
 
 # rotation
 execute positioned ~ ~-4 ~ facing entity @n[tag=cosmicsnake.target,distance=..60] feet run rotate @s ~ ~
-execute positioned ~ ~-4 ~ facing entity @n[tag=cosmicsnake.target,distance=..60] feet run tp @n[type=minecraft:end_crystal,tag=cosmicsnake.pointblank_shot.crystal,distance=..12] ^ ^-2 ^4
+execute positioned ~ ~-4 ~ run tp @n[type=minecraft:end_crystal,tag=cosmicsnake.pointblank_shot.crystal,distance=..12] ^ ^-2 ^4
 
 # tick crystal
 execute if entity @n[type=minecraft:end_crystal,tag=cosmicsnake.pointblank_shot.crystal,distance=..12] \

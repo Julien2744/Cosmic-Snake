@@ -1,3 +1,4 @@
+# check entity because boss_summoner also use this
 $execute if entity @s[type=item_display,tag=aj.cosmicsnake_head.root] on vehicle run damage @n[type=!#cosmicsnake:non_living,distance=..0.5] $(damage) cosmicsnake:desintegrated by @s
 $execute unless entity @s[type=item_display,tag=aj.cosmicsnake_head.root] run damage @n[type=!#cosmicsnake:non_living,distance=..0.5] $(damage) cosmicsnake:desintegrated
 

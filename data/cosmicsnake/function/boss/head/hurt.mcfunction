@@ -15,7 +15,7 @@ function cosmicsnake:boss/head/sound/hurt
 
 # increase energy if the head got damaged
 execute on passengers if entity @s[tag=aj.cosmicsnake_head.root] \
-        run scoreboard players operation @s cosmicsnake.energy += @s cosmicsnake.energy_repetition
+    run scoreboard players operation @s cosmicsnake.energy += @s cosmicsnake.energy_repetition
 execute on passengers if entity @s[tag=aj.cosmicsnake_head.root] \
     unless entity @s[tag=cosmicsnake.show_energy] run tag @s add cosmicsnake.show_energy
 

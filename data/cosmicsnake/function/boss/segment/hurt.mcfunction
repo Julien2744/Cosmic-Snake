@@ -3,7 +3,7 @@ execute store result score @s cosmicsnake.health run data get entity @s Health 1
 # if health is 0 (instakill) immediatly stop the boss
 $execute if score @s cosmicsnake.health matches 0 run return run scoreboard players set @n[type=item_display,tag=aj.cosmicsnake_head.root,tag=!cosmicsnake.defeated,nbt={data:{snake_ID:$(snake_ID)}},distance=..256] cosmicsnake.stop 1
 
-# calculate damage taken and store it in the head hitbox data
+# calculate damage taken and store it in the *head* hitbox data
 $data modify entity @n[type=minecraft:ghast,tag=cosmicsnake.head_hitbox,nbt={data:{snake_ID:$(snake_ID)}},distance=..256] data.dmg_taken set compute default float cosmicsnake:calculate_damage_taken
 
 # apply the damage that were done

@@ -20,6 +20,7 @@ execute if score @s cosmicsnake.can_attack matches 1 run function cosmicsnake:bo
 
 # segment contact damage
 execute if score #cosmicsnake.global cosmicsnake.gamerule.difficulty matches 2.. \
+    if score @s cosmicsnake.energy matches 750.. \
     at @a[gamemode=!creative,gamemode=!spectator,distance=..64,limit=8] \
     if entity @n[type=minecraft:ghast,tag=cosmicsnake.segment_hitbox,distance=..8] \
     as @n[type=minecraft:ghast,tag=cosmicsnake.segment_hitbox,distance=..8] at @s positioned ~-2 ~-0.5 ~-2 \

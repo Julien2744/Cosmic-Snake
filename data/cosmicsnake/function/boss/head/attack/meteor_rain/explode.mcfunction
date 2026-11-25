@@ -1,6 +1,6 @@
 data modify entity @s data.dmg set compute default float cosmicsnake:attack/meteor
 execute at @e[type=!#cosmicsnake:non_living,tag=!cosmicsnake.immune,distance=..8,limit=32] \
-        run function cosmicsnake:boss/head/attack/meteor_rain/apply_damage with entity @s data
+    run function cosmicsnake:boss/head/attack/meteor_rain/apply_damage with entity @s data
 
 particle minecraft:large_smoke ~ ~2 ~ 3 4 3 0.005 255
 particle minecraft:campfire_cosy_smoke ~ ~ ~ 2 2 2 0.005 255
@@ -16,5 +16,4 @@ execute if score #cosmicsnake.global cosmicsnake.gamerule.mob_griefing matches 1
 $execute if score #cosmicsnake.global cosmicsnake.gamerule.mob_griefing matches 1 positioned ~0.5 ~-1.5 ~0.5 \
     run data modify entity @n[type=minecraft:tnt,tag=cosmicsnake.cosmic_shot_explosion,distance=..1] owner set from entity @n[type=minecraft:ghast,tag=cosmicsnake.head_hitbox,nbt={data:{snake_ID:$(snake_ID)}},distance=..156] UUID
 
-execute on passengers run kill @s
-kill @s
+function cosmicsnake:boss/head/attack/meteor_rain/kill
